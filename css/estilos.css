@@ -1,0 +1,96 @@
+@font-face{font-family:Brasil;src:url("../font/brasil.ttf");}
+
+#posiciones {
+background: #ddd;
+left: 0px;
+width: 400px;
+position: relative;
+padding: 1px 20px 20px 20px;
+border-radius: 8px;
+}
+
+#registrar {
+font-family: "Brasil";
+background: #ddd;
+right: 100px;
+width: 680px;
+position: absolute;
+top: 470px;
+padding: 10px;
+border-radius: 8px
+}
+
+#registrar i {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#consultar {
+font-family: "Brasil";
+background: #ddd;
+right: 100px;
+width: 680px;
+position: absolute;
+top: 590px;
+padding: 1px 20px 20px 20px;
+border-radius: 8px
+}
+
+#consultar input {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+th, td, tr {
+background:#fff;
+}
+th{text-align:center;}
+
+h1, h2, th, a {
+font-family: "Brasil";
+}
+
+h1{
+color:#428bca;text-shadow:2px 2px 1px #000;
+}
+
+h2,th{
+color:#333;
+text-shadow:1px 1px 1px #000;
+letter-spacing: 2px;
+}
+
+#formulario {
+	background: #ddd;
+	margin: 0px auto 100px auto;
+	width: 1030px;
+	position: relative;
+	padding: 1px 0px 20px 20px;
+	border-radius: 8px;
+}
+
+input:required:invalid {
+	border: 1px solid red;
+}
+
+input:required:valid {
+	border: 1px solid green;
+}
+
+input:disabled{
+	cursor:text !important;
+}
+
+#reglas {
+	background: #ddd;
+	margin: 0px auto;
+	width: 1030px;
+	position: relative;
+	padding: 1px 0px 20px 20px;
+	border-radius: 8px;
+}
+
+.formu {
+	width:50%;
+	margin: 10px auto;
+	left: 0px;
+	position:relative;
+}
